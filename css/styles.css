@@ -1,0 +1,125 @@
+ol,
+ul,
+li {
+  list-style: none;
+}
+* {
+  text-decoration: none;
+}
+/* -------------------------------------------- */
+
+:root {
+  --main-color-text: #2e2f42;
+  --secondary-color-text: #434455;
+  --white-color: #ffffff;
+  --accent-color: #4d5ae5;
+  --hover-color: #404bbf;
+}
+/* -------------------------------------------- */
+
+body {
+  font-family: 'Roboto', 'sans-serif';
+  font-size: 16px;
+  background-color: #ffffff;
+
+  color: var(--main-color-text);
+}
+/* Header */
+.logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.logo > span {
+  color: var(--accent-color);
+}
+.list-of-references a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: inherit;
+}
+.list-of-references a:hover,
+.mail-tel a:hover {
+  color: var(--hover-color);
+}
+
+.mail-tel a {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+}
+/* Main */
+/* Section Hero */
+.hero-main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--white-color);
+}
+.hero {
+  background-color: #2E2F42;;
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--white-color);
+  cursor: pointer;
+}
+/* Section Advantages */
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color-text);
+}
+/* Section What */
+.what-title,
+.team-main-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Section Our Team */
+.team-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-color-text);
+}
+/* Footer */
+.footer{
+	background-color: #2E2F42;
+}
+.footer-text {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: #f4f4fd;
+}
