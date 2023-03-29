@@ -26,11 +26,19 @@ body {
   text-transform: uppercase;
   color: var(--accent-color);
 }
-.span {
-  color: var(--secondary-color-text);
+
+.footer-span{
+	color: #f4f4fd ;
+}
+.header-span{
+	color: var(--secondary-color-text);
 }
 .link {
   text-decoration: none;
+}
+.link:hover,
+.link:focus{
+	color: var(--hover-color);
 }
 .list{
 	list-style: none;
