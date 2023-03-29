@@ -9,39 +9,47 @@ li {
 /* =================================================*/
 
 :root {
-  --main-color-text: #2e2f42;
-  --secondary-color-text: #434455;
+  --backround-page: #ffffff;
+  --main-color-text: #434455;
+  --secondary-color-text: #2e2f42;
   --accent-color: #4d5ae5;
   --hover-color: #404bbf;
 }
 /* ================================================= */
 
 body {
-  font-family: 'Roboto', 'sans-serif';
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
-
+  background-color: var(--backround-page);
   color: var(--main-color-text);
 }
 /* ==================================================*/
-/* Styles of individual blocks */
+
 /* Header */
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: inherit;
-}
-.logo > span {
+  text-transform: uppercase;
   color: var(--accent-color);
+}
+.span {
+  color: var(--secondary-color-text);
+}
+.link {
+  text-decoration: none;
+}
+.list{
+	list-style: none;
 }
 .header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: inherit;
+  color: var(--secondary-color-text);
 }
 .header-link:hover,
 .header-mail:hover,
@@ -59,19 +67,6 @@ body {
   color: var(--secondary-color-text);
 }
 
-/* Footer */
-.footer {
-  background-color: #2e2f42;
-}
-.footer-logo {
-  color: #f4f4fd;
-}
-.footer-text {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-
-  color: #f4f4fd;
-}
 /* ==================================================== */
 /* Main Page*/
 /* Section Hero */
@@ -160,3 +155,16 @@ body {
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
 }
+/* Footer */
+.footer {
+	background-color: #2e2f42;
+ }
+ .footer-logo {
+	color: #f4f4fd;
+ }
+ .footer-text {
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+ 
+	color: #f4f4fd;
+ }
