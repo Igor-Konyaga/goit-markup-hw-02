@@ -64,7 +64,6 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-text);
 }
 
 /* ==================================================== */
@@ -97,12 +96,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
 }
 .advantages-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-
-  color: var(--secondary-color-text);
 }
 /* Section What */
 .what-title,
@@ -112,6 +110,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--secondary-color-text);
 }
 /* Section Our Team */
 .team-title {
@@ -120,13 +119,12 @@ body {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
 }
 .team-text {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-
-  color: var(--secondary-color-text);
 }
 /* ======================================================= */
 /* Filter Page */
@@ -149,11 +147,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
 }
 .list-card-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-text);
 }
 /* Footer */
 .footer {
